@@ -9,7 +9,7 @@ Ensemble des éléments constituant la mise en oeuvre de la base de données des
 - [ChangeLog](gabarit/livrables.md)
 - Script d'initialisation de la base de données
   * [Suivi des modifications](bdd/fon_00_trace.sql)
-  * [Structure des données](bdd/fon_101_squelette.sql)
+  * [Structure des données](bdd/fon_10_squelette.sql)
 - [Documentation d'administration de la base de données](bdd/doc_admin_bd_fon.md)
 - Documentation utilisateur
 
