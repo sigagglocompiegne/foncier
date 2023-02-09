@@ -4,7 +4,7 @@
 
 [ ] à rédiger [x] en cours de rédaction [ ] finaliser
 
-Ensemble des éléments constituant la mise en oeuvre de la base de données des cessions et acquisitions foncières. Cette donnée est liée aux fonctionnements des données sur [l'activité économique](https://github.com/sigagglocompiegne/acti_eco). Des passerelles ont été mises en place dans les 2 documentations :
+Ensemble des éléments constituant la mise en oeuvre de la base de données des cessions et acquisitions foncières. Cette donnée est liée aux fonctionnements des données sur [l'activité économique](https://github.com/sigagglocompiegne/acti_eco). 
 
 - [ChangeLog](gabarit/livrables.md)
 - Script d'initialisation de la base de données
@@ -23,8 +23,4 @@ L’ARC privilégie donc une organisation dans laquelle l’Interface Homme Mach
 -
 
 
-## Jeu de données consolidé (ancienne structure toujours en production)
-
-Vous pouvez retrouver plusieurs jeux de données à l'échelle de l'Agglomération de la Région de Compiègne :
- * [Les cessions foncières](https://geo.compiegnois.fr/geonetwork/srv/fre/catalog.search#/metadata/e35607f5-ff9b-4d34-a4f5-7d1d87671f41)
-
+Aucun jeu de données n'est disponible.
