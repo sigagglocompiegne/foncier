@@ -6,7 +6,6 @@
 
 Ensemble des éléments constituant la mise en oeuvre de la base de données des cessions et acquisitions foncières. Cette donnée est liée aux fonctionnements des données sur [l'activité économique](https://github.com/sigagglocompiegne/acti_eco). 
 
-- [ChangeLog](gabarit/livrables.md)
 - Script d'initialisation de la base de données
   * [Suivi des modifications](bdd/fon_00_trace.sql)
   * [Structure des données](bdd/fon_10_squelette.sql)
