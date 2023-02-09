@@ -4,7 +4,7 @@
 
 [ ] à rédiger [x] en cours de rédaction [ ] finaliser
 
-Ensemble des éléments constituant la mise en oeuvre de la base de données des cessions et acquisitions foncières. Cette donnée est liée aux fonctionnements des données sur [l'activité économique](https://github.com/sigagglocompiegne/acti_eco). 
+Ensemble des éléments constituant la mise en oeuvre de la base de données des cessions et acquisitions foncières. Cette donnée est liée aux fonctionnements des données sur l'activité économique. 
 
 - Script d'initialisation de la base de données
   * [Suivi des modifications](bdd/fon_00_trace.sql)
@@ -20,4 +20,4 @@ L’ARC privilégie donc une organisation dans laquelle l’Interface Homme Mach
 
 ## Voir aussi
 
-Aucun jeu de données n'est disponible.
+- [Activité économique](https://github.com/sigagglocompiegne/acti_eco)
