@@ -4,7 +4,7 @@
 
 [ ] à rédiger [x] en cours de rédaction [ ] finaliser
 
-Ensemble des éléments constituant la mise en oeuvre de la base de données des cessions et acquisitions foncières. Cette donnée est liée aux fonctionnements des données sur l'activité économique. 
+Ensemble des éléments constituant la mise en oeuvre de la base de données des cessions et acquisitions foncières. Cette donnée est liée aux fonctionnements des données sur l'activité économique. Seule la documentation sur les données non associées à l'activité économique est disponible dans les points suivants. Les données liées à l'activité économique (cessions) sont intégrées au répertoire sur l'activité économique.
 
 - Script d'initialisation de la base de données
   * [Suivi des modifications](bdd/fon_00_trace.sql)
