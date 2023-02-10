@@ -20,7 +20,7 @@ En 2022, un nouveau cadre de mutualisation a réorienté les choix initiaux en t
 ## Modèle relationel simplifié
 
 
-![act_eco_rel](diagram_m_activite_eco_v4.png)
+![fon_acqui](fon_acqui_mrd.png)
 
 
 ## Dépendances
