@@ -13,7 +13,7 @@ Ensemble des éléments constituant la mise en oeuvre de la base de données des
   * [Création des vues applicatives](bdd/afe_21_vues_xapps.sql)
   * [Création des privilèges](bdd/afe_99_grant.sql)  
 - [Documentation d'administration de la base de données](bdd/doc_admin_bd_fon.md)
-- Documentation utilisateur
+- [Documentations des utilisateurs](https://geo.compiegnois.fr/portail/index.php/2019/05/30/foncier/)
 
 ## Contexte
 
