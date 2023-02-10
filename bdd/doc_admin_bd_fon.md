@@ -25,7 +25,7 @@ En 2022, un nouveau cadre de mutualisation a réorienté les choix initiaux en t
 
 ## Dépendances
 
-Sans objet
+Seule la liste de valeur `lt_src_geom` est issu d'un autre schéma `r_objet`.
 
 
 ## Classes d'objets du foncier
