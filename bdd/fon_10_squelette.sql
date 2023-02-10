@@ -93,6 +93,24 @@ CREATE SEQUENCE m_foncier.an_fon_acqui_proprio_gid_seq
 
 -- Les fonctions utilisées ici sont tous le schéma public et partagées. Elles ne sont donc pas spésifiques à cette thématique.
 
+-- ################################################# ft_m_acqui_proprio_idmedia ##################################
+
+CREATE OR REPLACE FUNCTION m_foncier.ft_m_acqui_proprio_idmedia()
+    RETURNS trigger
+    LANGUAGE 'plpgsql'
+    COST 100
+    VOLATILE NOT LEAKPROOF
+AS $BODY$
+
+BEGIN
+
+NEW.idmedia := NEW.idgeoaf || '_' || NEW.gid;
+   
+    return new;
+END;
+
+$BODY$;
+
 
 -- ####################################################################################################################################################
 -- ###                                                                                                                                              ###
