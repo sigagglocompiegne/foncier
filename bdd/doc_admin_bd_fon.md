@@ -99,6 +99,26 @@ Particularité(s) à noter :
 
 ### Classes d'objets attributaire :
 
+`[m_foncier].[an_fon_acqui_proprio]` : table géographique contenant les caractéristiques des acquisitions lors d'une acquisition foncière en copropriété. Cette table est liée à la table `geo_fon_acqui` 
+   
+|Nom attribut | Définition | Type | Valeurs par défaut |
+|:---|:---|:---|:---|
+|gid|Identifiant unique (clé interne)|integer|nextval('m_foncier.an_fon_acqui_proprio_gid_seq'::regclass)|
+|idgeoaf|Identifiant de l'acquisition foncière|integer| |
+|l_proprio|Libellé du propriétaire|character varying(254)| |
+|l_etat|Etat du dossier (liste de valeur état du dossier des acquisitions)|character varying(2)|0|
+|l_lot|Numéro du lot de copropriétés concernés|character varying(20)| |
+|date_sai|Date de saisie de la donnée dans la base|timestamp without time zone| |
+|date_maj|Date de mise à jour de la donnée dans la base|timestamp without time zone| |
+
+
+Particularité(s) à noter :
+* Une clé primaire existe sur le champ `gid` l'attribution automatique de la référence unique s'effectue via une séquence. 
+
+* 2 triggers :
+  * `t_t1_m_acqui_proprio_idmedia` : trigger permettant de contrôle la saisie entre EPCI
+  * `t_t2_insert_date_maj` : trigger permettant de générer une clé partoculière `idmedia` composée du n° d'acquisition et du gid
+
 `[m_foncier].[an_fon_doc_media]` : table alphanumérique des médias joints aux acquisitions
 
 Cette table est détaillée dans le répertoire `acti_eco` car partagée avec les cessions foncières.
